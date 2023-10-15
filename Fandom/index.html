@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Amuzia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../main3.css'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src='../../fn_title_resp.js'></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="../../mslogo.jpeg">
+    <style>
+        html {
+            background-image: url(../amuzia.jpg);
+        }
+
+        main {
+            color: white;
+        }
+
+        #title {
+            color: white;
+        }
+
+        #sidebar .list label {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        @media only screen and (max-width: 768px) {
+            #sidebar .list label {
+                color: black;
+            }
+
+            #sidebar {
+                background-color: rgba(255, 255, 255, 0.4);
+
+            }
+
+            #sidebar .list label {
+                color: black;
+            }
+
+
+            #sidebar .list label {
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            main {
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body onload="fn();">
+    <ul>
+        <a href="./../../">
+            <li class="prev"><span></span></li>
+        </a>
+
+    </ul>
+
+    <div class="container">
+        <div id="nill"></div>
+        <div id="title">FANDOM</div>
+        <div id="sidebar">
+            <!-- <script src="..\fn_title_resp.js"></script> -->
+            <!-- Sidebar -->
+            <input type="radio" name="indicator" id="Event" checked="true" onclick="fn()">
+            <input type="radio" name="indicator" id="Structure" onclick="fn()">
+            <input type="radio" name="indicator" id="Rules" onclick="fn()">
+            <input type="radio" name="indicator" id="FAQs" onclick="fn()">
+            <input type="radio" name="indicator" id="Register" onclick="fn()">
+            <div class="list">
+                <label for="Event" class="Event">
+                    <span id="topic1">Event</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="Structure" class="Structure">
+                    <span id="topic2">Structure</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="Rules" class="Rules">
+                    <span id="topic3">Rules</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="FAQs" class="FAQs">
+                    <span id="topic4">FAQs</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="Register" class="Register">
+                    <span id="topic5">Register</span>
+                </label>
+                <div class="indicator"></div>
+            </div>
+        </div>
+        <main id="text">
+            <div id="event-text">
+                <span class="logo"><img src="fandom.png" width="25%"></span>
+                <!-- Add content -->
+
+                <p>This quiz is all about testing your knowledge about your favorite show. FANDOM gives you a chance to
+                    attempt quizzes for the following shows: </p>
+                <b>
+                    <p> A. FRIENDS <br>
+                        B. The Office <br>
+                        C. Harry Potter
+                    </p>
+                </b>
+                <p> This quiz is designed to test the participant’s knowledge about the show attempted for, the
+                    characters,
+                    the flow and thus is an opportunity to prove that the participant is a true fan of the series.
+
+                </p>
+                <button><a href="https://www.townscript.com/e/fandom-241211" style="text-decoration: none; color: white;">Register</a></button>
+                <!-- <p>(Online registrations will begin soon...)</p> -->
+            </div>
+            <div id="structure-text">
+                <div class="title">About Event</div>
+                <hr><br>
+                <p><b>ROUND 1:</b> <br> Multiple Choice Questions.
+                </p>
+                <hr><br>
+                <p>
+                    <b>ROUND 2:</b> <br>
+                    Questions based on identifying the scenes or dialogues, characters or relatable stuff. Similar
+                    questions
+                    based on videos, audios, signs etc.
+                </p>
+                <hr><br>
+                <div class="title">Elimination criteria:</div>
+
+                <p> Anyone who scores 20/30+ would proceed for Round 2.
+                </p>
+                <hr><br>
+
+                <div class="title">Team and fee structure</div>
+
+                <p> Team size : Maximum 2 per team. <br>
+                    Registration fee : ₹99 per team per show. </p>
+                <hr><br>
+            </div>
+            <div id="rules-text">
+                <div class="title">Rules</div>
+                <hr><br>
+                <p class="cont3">
+                <p>1. You can attempt FANDOM quiz of one show ONLY ONCE. </p>
+                <p>2. If a team is caught cheating or playing by unfair means then the team will be disqualified.
+                </p>
+                <p>3. Participants should report to the venue on time and must attend the quiz in the given slot only.
+                </p>
+                <p>4. The decision of the respective Quiz Head will be final and will not be subjected to any change.
+                </p>
+                <p>5. Replacement of any participant is strictly not allowed.</p>
+                </p>
+                <hr><br>
+                <div class="title">NOTE :</div>
+                <p>• If number of participants are less than 20 then only 2 winners will be selected. <br>
+                    • If number of participants are less than 5 then only 1 winner will be selected. <br>
+                    • If number of participants are less than or equal to 3 then event will be cancelled.
+                </p>
+                <hr><br>
+            </div>
+            <div id="FAQs-text">
+                <div class="title">FAQs</div>
+                <hr> <br>
+                <p class="cont4">
+                    Q. What is the team structure? <br>
+                    A. Participants can take part in a team of maximum 2 players. You can participate individually also
+                    but a team of 2 is recommended per show.
+                    <hr> <br>
+                </p>
+
+
+                <p> Q. Can I participate in other events at MindSpark’22?<br>
+                    A. You are allowed to participate in as many events at MindSpark’22 as long as you are able to
+                    manage your own schedule.
+                    <hr> <br>
+
+                <p> Q. What does the Round 2 preparations involve?<br>
+                    A. There are no special preparations required for Round 2. Just ensure that your team has watched
+                    the respective show carefully and thoroughly.
+                    <hr> <br>
+
+                <p> Q. Can I participate for different shows?<br>
+                    A. You are allowed to participate for different shows after registering for them. Just ensure that
+                    your team able to manage your own schedule.
+                    <hr> <br>
+
+                <p> Q. Can I participate for a single show multiple times?<br>
+                    A. No. You can attempt FANDOM quiz of one show ONLY ONCE.
+                    <hr> <br>
+                </p>
+
+                <p> Q. Should I read books (if available for relevant shows)?<br>
+                    A. Not necessarily. Quiz will have questions based on series only.
+
+                </p>
+                <hr><br>
+            </div>
+            <div id="register-text">
+                <div class="title">Register</div>
+                <hr>
+                <p>To participate in the event click on the Register Button.</p>
+                <button><a href="https://www.townscript.com/e/fandom-241211" style="text-decoration: none; color: white;">Register</a></button>
+                <!-- <p>(Online registrations will begin soon...)</p> -->
+                <br><br>
+                <div class="title">Contact Us</div>
+                <hr>
+                <p>If you have any queries regarding this
+                    event feel free to contact following :</p>
+                </p>
+                <p> <b>Ishita Kulkarni<br>
+                        +91 79772 49126
+                    </b>
+                </p>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
