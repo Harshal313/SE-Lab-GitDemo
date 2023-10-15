@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Amuzia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../main3.css'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src='../../fn_title_resp.js'></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="../../mslogo.jpeg">
+    <style>
+        html {
+            background-image: url(../amuzia.jpg);
+        }
+
+        main {
+            color: white;
+        }
+
+        #title {
+            color: white;
+        }
+
+        #sidebar .list label {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        @media only screen and (max-width: 768px) {
+
+
+            #sidebar {
+                background-color: rgba(66, 66, 67, 0.62);
+
+            }
+
+            #sidebar .list label {
+                color: black;
+            }
+
+            main {
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body onload="fn();">
+    <ul>
+        <a href="./../../">
+            <li class="prev"><span></span></li>
+        </a>
+    </ul>
+
+    <div class="container">
+        <div id="nill"></div>
+        <div id="title">FLASH</div>
+        <div id="sidebar">
+            <script src="../../fn_title_resp.js"></script>
+            <input type="radio" name="indicator" id="Event" checked="true" onclick="fn()">
+            <input type="radio" name="indicator" id="Structure" onclick="fn()">
+            <input type="radio" name="indicator" id="Rules" onclick="fn()">
+            <input type="radio" name="indicator" id="FAQs" onclick="fn()">
+            <input type="radio" name="indicator" id="Register" onclick="fn()">
+            <div class="list">
+                <label for="Event" class="Event">
+                    <span id="topic1">Event</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="Structure" class="Structure">
+                    <span id="topic2">Structure</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="Rules" class="Rules">
+                    <span id="topic3">Rules</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="FAQs" class="FAQs">
+                    <span id="topic4">FAQs</span>
+                </label>
+            </div>
+            <div class="list">
+                <label for="Register" class="Register">
+                    <span id="topic5">Register</span>
+                </label>
+                <div class="indicator"></div>
+            </div>
+        </div>
+        <main id="text">
+            <div id="event-text">
+                <span class="logo"><img src="Flash.png" width="25%"></span>
+
+                <p>Photography is an art of observation. It has little to do with the things one sees and everything to
+                    do with the way they see it. Do you think you have the sight of keen observation? If yes, surprise
+                    us with your images by participating in the categories that suit you the best. No restrictions on
+                    the number of categories you want to participate in!
+                </p>
+                <button><a href="https://www.townscript.com/e/flash-122414" style="text-decoration: none; color: white;">Register</a></button>
+                <!-- <p>(Online registrations will begin soon...)</p> -->
+            </div>
+            <div id="structure-text">
+                <div class="title">CATEGORIES:</div>
+                <hr><br>
+                <p>
+                    <b> 1. Photography:</b> <br>
+                    <p><b>Best Single Photo:</b> Participants must click and submit a single photograph clicked during the
+                    event
+                    itself. The theme for the same will be provided on the spot and the participants must submit their
+                    entry within the given amount of time.</p>
+                    <p><b>Best Photo Set:</b> Participants must make a photo set that should be clicked during the event
+                    itself.
+                    The theme for the same will be provided on the spot and the photo set should be able to represent
+                    the theme of the competition.
+                    The photographs/ photo sets will be judged based on the composition, post processing, ability to
+                    communicate the theme of the contest and overall aesthetics.</p>
+                </p>
+                <hr><br>
+
+                <p> <b>2. Videography:</b><br>
+
+                    <p>a. Participants are supposed to make a video with duration not more than 90 seconds portraying the
+                    theme that will be specified during the competition. </p>
+                    <p>b. The video can be in both horizontal and vertical formats </p>
+                    <p>c. Time-lapses, hyper-lapses, compilation is allowed. </p>
+                    <p>d. The participants will be allowed to start shooting from the first day of Mindspark ’22. Use of
+                    adobe after-effects, premiere pro or any other relevant video editing software is allowed.</p>
+                </p><hr><br>
+                <div class="title">Elimination criteria:</div>
+                
+                <p> <p>1. Firstly, participants that fail to adhere to any of the rules of the contest will be
+                    disqualified. </p>
+                    <p>2. The participants who fail to meet the deadline for submissions will also not be
+                    considered.</p>
+                    <p>3. The photographs or videos should adhere to the guidelines provided with regards to the theme and
+                    the type of photographs and videos that are to be submitted. Failure to meet this criterion will
+                    lead to disqualification.</p>
+                    <p>4. Any manner of misconduct or misbehavior on the participants’ end will not be tolerated.
+                    </p>
+                </p><hr><br>
+
+                <div class="title">Team and fee Structure :</div>
+                
+                <p> Team size : Individual Participation <br>
+                    Registration fee : ₹49 per person
+                </p><hr><br>
+            </div>
+            <div id="rules-text">
+                <div class="title">Rules</div>
+                <hr><br>
+                <p class="cont3">
+                    <p>1. Post processing of pictures is allowed. </p>
+                    <p>2. You need to bring your own camera, mobile or any other accessory you need during the
+                    event.</p>
+                    <p>3. Participants are allowed to participate in more than one category for this event.</p>
+                    <p>4. Unprocessed files must also be submitted along with the gear (mobile model/camera model + lens +
+                    Exif’s) used must be mentioned.</p>
+
+                    <p>5. The entries would be judged based on composition, creativity, and post processing.</p>
+                    <p>6. The event head/coordinators have the right to deny the participant from participating in the
+                    event if participants break above mentioned rules.
+                    </p><hr><br>
+                
+                <div class="title">NOTE :</div>
+                <p>
+                    • If number of participants are less than 20 then only 2 winners will be selected. <br>
+                    • If number of participants are less than 5 then only 1 winner will be selected. <br>
+                    • If number of participants are less than or equal to 3 then event will be cancelled.
+
+                </p><hr><br>
+
+            </div>
+            <div id="FAQs-text">
+                <div class="title">FAQs</div>
+                <hr> <br>
+                <p class="cont4">
+                    Q. Can I start taking photos early? <br>
+                    A. Yes, you can start taking photos which can cover the preparation of MindSpark’22. Remember, it’s
+                    all about creativity and uniqueness.
+                    <hr> <br>
+                </p>
+
+                <p> Q. Can I participate at the same time in two categories? <br>
+                    A. Yes you may participate in two categories simultaneously. <br> For e.g., one may participate in
+                    the
+                    mobile photo as well as the professional photo category, but you have to register those many times.
+                    <hr> <br>
+                </p>
+
+                <p> Q. Can I participate in other events at MindSpark’22? <br>
+                    A. You are allowed to participate in as many events at MindSpark’22 as long as you are able to
+                    manage your own schedule
+                </p><hr><br>
+            </div>
+            <div id="register-text">
+                <div class="title">Register</div>
+                <hr>
+                <p>To participate in the event click on the Register Button.</p>
+                <button><a href="https://www.townscript.com/e/flash-122414" style="text-decoration: none; color: white;">Register</a></button>
+                <!-- <p>(Online registrations will begin soon...)</p> -->
+                <br><br><div class="title">Contact Us</div><hr>
+                <p>If you have any queries regarding this
+                    event feel free to contact following :</p>
+                </p>
+                <p> <b>Avinash Sreelal<br>
+                    +91 96376 98206 
+                    </b>
+                </p>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
